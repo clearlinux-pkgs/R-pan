@@ -4,7 +4,7 @@
 #
 Name     : R-pan
 Version  : 1.6
-Release  : 1
+Release  : 2
 URL      : https://cran.r-project.org/src/contrib/pan_1.6.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/pan_1.6.tar.gz
 Summary  : Multiple Imputation for Multivariate Panel or Clustered Data
