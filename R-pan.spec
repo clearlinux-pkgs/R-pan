@@ -4,10 +4,10 @@
 # Using build pattern: R
 #
 Name     : R-pan
-Version  : 1.8
-Release  : 16
-URL      : https://cran.r-project.org/src/contrib/pan_1.8.tar.gz
-Source0  : https://cran.r-project.org/src/contrib/pan_1.8.tar.gz
+Version  : 1.9
+Release  : 17
+URL      : https://cran.r-project.org/src/contrib/pan_1.9.tar.gz
+Source0  : https://cran.r-project.org/src/contrib/pan_1.9.tar.gz
 Summary  : Multiple Imputation for Multivariate Panel or Clustered Data
 Group    : Development/Tools
 License  : GPL-3.0
@@ -42,10 +42,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1687799302
+export SOURCE_DATE_EPOCH=1692633322
 
 %install
-export SOURCE_DATE_EPOCH=1687799302
+export SOURCE_DATE_EPOCH=1692633322
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
